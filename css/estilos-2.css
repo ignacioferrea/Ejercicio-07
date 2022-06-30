@@ -1,0 +1,112 @@
+/* RESET */
+*{ 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/img/abstract-futuristic-background-with-3d-design.jpg);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background-color: #2a0d2b80;
+    border: 5px solid #0b1a53;
+    border-radius: 10px;
+    text-align: center;
+    width: 65%;
+    margin: 2%;
+}
+
+.mario-kart{
+    align-self: flex-start;
+}
+.mortal-kombat{
+    align-self: flex-end;
+} 
+
+h1{
+    color: #ff5614;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: -4px 3px 0 #384bf7c0, -14px 7px 0 #0a0e275b;
+    border-bottom: 15px solid #131a5a;
+    border-radius: 13px;
+    margin-left: 1%;
+    margin-right:1% ;
+    padding-bottom: 1%;
+}
+
+h2{
+   color: #FF8C32;
+   font-size: 30px;
+   text-shadow: -2px 3px 0 #155adb94, -9px 7px 0 #0a0e27;
+   text-align: center;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+
+h3 {
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    border-bottom: 6px double #ff5614;
+    margin: 1.5%;
+    text-shadow: 0 0 2px #ff5614;
+}
+
+article p {
+    margin: 0.5%;
+    font-weight: bold;
+    color: #DDDDDD;
+}
+
+a {
+    color: white;
+    background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 1%;
+    line-height: 3;
+}
+
+    /* Agrego icono del carrito de compras */
+    a::before{
+        content: url(/img/icons8-carrito-de-compras-24.png);
+        margin: 1%;
+        vertical-align: -4px;
+    }
+
+    a:hover{
+        background-color: #FF8C32;
+    }
+
+    a:active{
+        background-color: #0b1a53;
+    }
+    
+
+img {
+    width: 65%;
+    border-radius: 10px;
+    /* Le añado un fondo y le doy un padding de 2px para que quede como si fuera un borde */
+    background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 2px;
+}
+
+footer {
+    color: #ddddddf1;
+    background-color: #7a297265;
+    text-align: center;
+    padding: 0.1%;
+    margin: 2%;
+}
